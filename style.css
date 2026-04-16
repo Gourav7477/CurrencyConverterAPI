@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card */
+.card {
+    background: #111;
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(255, 200, 0, 0.5);
+}
+
+/* Title */
+h2 {
+    color: #ffd700;
+}
+
+/* Rate */
+#rate {
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+/* Section */
+.section {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* Label */
+label {
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* Input box */
+.input-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #222;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/* Input */
+.input-box input {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    width: 60%;
+}
+
+/* Dropdown */
+select {
+    border: none;
+    background: transparent;
+    color: #ffd700;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Dropdown options */
+select option {
+    background: #111;
+    color: white;
+}
+
+/* Swap */
+.swap {
+    margin: 15px auto;
+    background: #ffd700;
+    color: black;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #ffd700;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #e6c200;
+}
